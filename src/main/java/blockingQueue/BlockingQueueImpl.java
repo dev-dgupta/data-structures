@@ -15,7 +15,7 @@ public class BlockingQueueImpl {
     private final Condition bufferNotFull;
     private final Condition bufferNotEmpty;
     //    private final static int capacity = 10;
-    private final Queue queue = new LinkedList<>();
+    private final Queue queue = new LinkedList();
 
     private int limit;
 
