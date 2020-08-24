@@ -3,9 +3,36 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="ALL" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="a299c205-b8c9-49d3-b4c1-3d0d76f75e97" name="Default" comment="blocking queue">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codeWithDivya/SmallestSubArraySum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.structures.iml" beforeDir="false" afterPath="$PROJECT_DIR$/data.structures.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DataStructuresApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/blockingQueue/DataStructuresApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/blockingQueue/BlockingQueueImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/blockingQueue/BlockingQueueImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/blockingQueue/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/blockingQueue/Consumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/blockingQueue/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/blockingQueue/Producer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,9 +41,6 @@
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="BlockingQueueImplementation" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -41,12 +65,6 @@
   </component>
   <component name="MavenRunner">
     <option name="jreName" value="1.8" />
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
   </component>
   <component name="ProjectId" id="1gXONsuTHuV3ZwNqNDsTcRQOoTe" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -140,22 +158,26 @@
   </component>
   <component name="PropertiesComponent">
     <property name="FullScreen" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.28045976" />
     <property name="recentsLimit" value="5" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="blockingQueue" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\divya\ideaProjects\data-structures\src\main\java\blockingQueue" />
+      <recent name="F:\divya\ideaProjects\data-structures\src\main\java" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Count0And1">
+  <component name="RunManager" selected="Application.SmallestSubArraySum">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -357,6 +379,7 @@
     <configuration name="Count0And1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="C:\Users\Devesh\.jdks\openjdk-14.0.2" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
       <option name="MAIN_CLASS_NAME" value="practice.Count0And1" />
       <module name="data.structures" />
       <extension name="coverage">
@@ -372,8 +395,23 @@
     <configuration name="DataStructuresApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="C:\Users\Devesh\.jdks\openjdk-14.0.2" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
       <option name="MAIN_CLASS_NAME" value="DataStructuresApplication" />
       <module name="data.structures" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SmallestSubArraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.codeWithDivya.SmallestSubArraySum" />
+      <module name="data.structures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codeWithDivya.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -412,9 +450,11 @@
     <list>
       <item itemvalue="Application.DataStructuresApplication" />
       <item itemvalue="Application.Count0And1" />
+      <item itemvalue="Application.SmallestSubArraySum" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SmallestSubArraySum" />
         <item itemvalue="Application.Count0And1" />
         <item itemvalue="Application.DataStructuresApplication" />
       </list>
@@ -458,14 +498,17 @@
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="11426000" />
   </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -483,10 +526,26 @@
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="137" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598257501953">
+    <state x="163" y="0" key="#Project_Structure" timestamp="1598266936358">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="137" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/1366.0.1440.860@0.0.1366.728" timestamp="1598257501953" />
+    <state x="163" y="0" key="#Project_Structure/0.0.1366.728/1366.0.1440.860@0.0.1366.728" timestamp="1598266936358" />
+    <state x="137" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598266788463">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/1366.0.1440.860@0.0.1366.728" timestamp="1598266788463" />
+    <state x="463" y="105" key="FileChooserDialogImpl" timestamp="1598266363334">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="105" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1440.860@0.0.1366.728" timestamp="1598266363334" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1598266996374">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728/1366.0.1440.860@0.0.1366.728" timestamp="1598266996374" />
+    <state x="499" y="141" key="chooseDestDirectoryDialog" timestamp="1598266918218">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="499" y="141" key="chooseDestDirectoryDialog/0.0.1366.728/1366.0.1440.860@0.0.1366.728" timestamp="1598266918218" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -513,97 +572,5 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.28045976" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.28045976" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.5942529" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.28045976" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>data.structures</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.28045976" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: commons-logging:commons-logging:1.2</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.5942529" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

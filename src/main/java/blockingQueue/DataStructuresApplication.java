@@ -1,6 +1,4 @@
-import blockingQueue.BlockingQueueImpl;
-import blockingQueue.Consumer;
-import blockingQueue.Producer;
+package blockingQueue;
 
 /**
  * Created by Divya.Gupta on 09-04-2018.
